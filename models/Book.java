@@ -29,4 +29,21 @@ public class Book {
         return isbn;
     }
 
+    public int getNumberofAvailableCopies(){
+        return availableCopies ;
+    }
+
+    public int getNumberofTotalCopies(){
+        return totalCopies ;
+    }
+
+    public void getBookDetails(){
+      System.out.println("Book Name: " + bookName);
+      System.out.println("Author's name: " + authorName);
+      System.out.println("Book ISBN:" + isbn);
+      System.out.println("Total book copies: " + totalCopies);
+      System.out.println("Total available copies: " + availableCopies);
+    }
+    
+
 }
