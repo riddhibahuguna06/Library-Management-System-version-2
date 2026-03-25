@@ -44,7 +44,7 @@ public class Book {
     this.totalCopies = totalCopies;
   }
 
-    public void getBookDetails(){
+    public void displayBookDetails(){
       System.out.println("Book Name: " + bookName);
       System.out.println("Author's name: " + authorName);
       System.out.println("Book ISBN:" + isbn);

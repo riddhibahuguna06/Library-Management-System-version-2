@@ -39,4 +39,25 @@ public class Member {
     public String getMemberType(){
         return memberType;
     }
+
+    public ArrayList<Book> getIssuedBook(){
+        return issuedBooks ;
+    }
+
+    public void addIssuedBook(Book book){
+    issuedBooks.add(book);
+    }
+    
+    public void removeIssuedBook(Book book){
+        issuedBooks.remove(book);
+    }
+
+    public void displayMemberDetails(){
+    System.out.println("Member ID: " + memberId);
+    System.out.println("Name: " + name);
+    System.out.println("Mobile: " + mobileNumber);
+    System.out.println("Member Type: " + memberType);
+    System.out.println("Max Book Limit: " + maxBookLimit);
+    System.out.println("Books Issued: " + issuedBooks.size());
+}
 }
