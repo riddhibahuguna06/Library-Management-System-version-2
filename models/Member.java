@@ -19,5 +19,24 @@ public class Member {
         this.mobileNumber = mobileNumber;
         this.issuedBooks = new ArrayList<>();
     }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getMemberId(){
+        return memberId;
+    }
+
+    public String getMobileNum(){
+        return mobileNumber;
+    }
+
+    public int getMaxBookLimit(){
+        return maxBookLimit ;
+    }
     
+    public String getMemberType(){
+        return memberType;
+    }
 }
