@@ -29,13 +29,20 @@ public class Book {
         return isbn;
     }
 
-    public int getNumberofAvailableCopies(){
+    public int getAvailableCopies(){
         return availableCopies ;
     }
-
-    public int getNumberofTotalCopies(){
+    public int getTotalCopies(){
         return totalCopies ;
     }
+
+    public void setAvailableCopies(int availableCopies){
+    this.availableCopies = availableCopies;
+  }
+
+    public void setTotalCopies(int totalCopies){
+    this.totalCopies = totalCopies;
+  }
 
     public void getBookDetails(){
       System.out.println("Book Name: " + bookName);
